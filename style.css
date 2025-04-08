@@ -30,6 +30,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     display: flex;
+    margin-top: 45px;
 }
 
 .top li:hover {border-color:rgba(238, 255, 0, 0.849) ;}
@@ -97,6 +98,24 @@ border-radius: 25px;
 box-shadow: 4px 2px 2px black;}
 
 .imgtest img:hover {
+    z-index: 10;
+    transform: scale(1.05);
+    transition: ease 0.5s;
+    border-radius: 25px;
+}
+
+.imgtest2{ display:grid;
+    justify-content: center;
+grid-template-columns: 25% 25% 25% 25%;
+max-width: 90%;
+padding: 20px;
+}
+
+.imgtest2 img{border: 1px solid rgb(0, 0, 0);
+border-radius: 25px;
+box-shadow: 4px 2px 2px black;}
+
+.imgtest2 img:hover {
     z-index: 10;
     transform: scale(1.05);
     transition: ease 0.5s;
