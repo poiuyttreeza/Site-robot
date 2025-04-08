@@ -33,6 +33,7 @@ body {
 }
 
 .top li:hover {border-color:rgba(238, 255, 0, 0.849) ;}
+
 .top li a:hover {
     color: rgba(238, 255, 0, 0.849);
     
@@ -73,7 +74,7 @@ h1:hover {color: rgba(238, 255, 0, 0.849) ;}
 }
 
 .matos {border: 2px solid yellow;
-background-color: rgba(137, 43, 226, 0.178);
+background-color: rgba(255, 0, 0, 0.205);
 box-shadow: 4px 2px 2px yellow;
 max-width: 90%;
 margin: auto;
