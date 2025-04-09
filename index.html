@@ -24,6 +24,9 @@
     
 </div>
 <h2 style="margin-bottom: 50px;">L'Équipe</h2>
+
+   
+
     <div class="ekip">
         
 
@@ -32,6 +35,16 @@
 <img class="i3" style="width:489px; height: 734px;" src="maoudjoudi.webp" alt="">
 <img class="i4" src="ChatGPT_Image_7_avr._2025_10_01_43.webp" alt="">
 <img class="i5" style="width:489px; height: 734px;" src="stv2.webp" alt="">
+<p class="p1">Julien</p>
+<p class="p2">Gweltaz</p>
+<p class="p3">Maoudjoudi</p>
+<p class="p4">Alex</p>
+<p class="p5">Steven</p>
+
+</div>
+
+    <div class="nom">
+       
     </div>
 
     <div class="matos">
@@ -50,6 +63,81 @@
             <img class="i3" style="width: 500px; height: 500px;" src="Img\box.webp" alt="">
             <img class="i4" style="width: 500px; height: 500px;" src="Img\Arduino.jpg" alt="">
         </div>
+    </div>
+
+    <div class="arduino">
+        <h2>Code arduino</h2>
+
+        <p>#include <Servo.h>
+
+
+            // Define les broches pour les servo-moteurs 
+<br>
+            
+                const int servoPin1 = 8;
+            <br>
+                const int servoPin2roue = 13;
+            <br>
+                const int servoPin3 = 2;
+            <br>
+            
+            // Define les broches pour les potentiomètres
+            <br>
+                const int potPin1 = A0;
+            <br>
+                const int potPin2 = A1;
+            <br>
+                const int potPin3 = A2;
+            <br>
+            
+            // Crée des objets Servo pour les servo-moteurs
+            <br>
+                Servo servo1;
+            <br>
+                Servo servo2;
+            <br>
+                Servo servo3;
+            <br>
+            
+            void setup() {
+            <br>
+              // Initialise les servo-moteurs
+            <br>
+                 servo1.attach(servoPin1);
+            <br>
+                servo2.attach(servoPin2roue);
+            <br>
+                 servo3.attach(servoPin3);
+            <br>
+            }
+            <br>
+            
+            void loop() {
+            <br>
+              // Lit les valeurs des potentiomètres
+            <br>
+                int angle1 = map(analogRead(potPin1), 0, 1023, 0, 180);
+            <br>
+                 int angle2 = map(analogRead(potPin2), 0, 1023, 0, 180);
+            <br>
+                int angle3 = map(analogRead(potPin3), 0, 1023, 0, 180);
+            <br>
+            
+              // Déplace les servo-moteurs aux positions spécifiées par les potentiomètres
+            <br>
+                 servo1.write(angle1);
+            <br>
+                    delay(15); // Ajout d'un délai de 15 millisecondes
+            <br>
+                servo2.write(angle2);
+            <br>
+                    delay(50); // Ajout d'un délai de 15 millisecondes
+            <br>
+                 servo3.write(angle3);
+            <br>
+                    delay(15); // Ajout d'un délai de 15 millisecondes
+            <br>
+            }</p>
     </div>
     
 </body>

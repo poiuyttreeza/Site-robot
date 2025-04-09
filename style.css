@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    max-width: 80%;
+    max-width: 85%;
     justify-items: center;
 }
 
@@ -54,11 +54,21 @@ h1 {
     font-size: 200px;
     text-align: center;
     margin-bottom: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 h1:hover {
     color: rgba(238, 255, 0, 0.849);
 }
+
+
+
+.ekip p {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+margin-top: 20px;}
+
+
 
 .ekip {
     margin: auto;
@@ -81,6 +91,17 @@ h1:hover {
     border-radius: 25px;
 }
 
+.i1:hover~.p1 {color: rgba(238, 255, 0, 0.849);
+}
+.i2:hover~.p2 {color: rgba(238, 255, 0, 0.849);
+}
+.i3:hover~.p3 {color: rgba(238, 255, 0, 0.849);
+}
+.i4:hover~.p4 {color: rgba(238, 255, 0, 0.849);
+}
+.i5:hover~.p5 {color: rgba(238, 255, 0, 0.849);
+}
+
 .matos {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgba(255, 0, 0, 0.205);
@@ -95,6 +116,8 @@ h2 {
     font-size: 70px;
     text-align: center;
 }
+
+h2:hover {color: rgba(238, 255, 0, 0.849) ;}
 
 .imgtest {
     display: grid;
@@ -154,6 +177,20 @@ h2 {
     z-index: 2;
 }
 
-.i3:hover~.i2 {
-    z-index: 110;
+.i3:has(+.i2) {
+    z-index: 100;
 }
+
+.arduino p {margin: auto;
+justify-self: center;
+text-align: center;
+margin-top: 25px;}
+
+.arduino {border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.205);
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.952);
+    max-width: 90%;
+    margin: auto;
+    border-radius: 25px;
+margin-top: 25px;
+margin-bottom: 25px;}
