@@ -10,25 +10,32 @@
 
 
 <body>
+    
 
-
-    <div class="top">
+   <!-- 
 
 
 
         <li><a href="">L'équipe</a></li>
 
-        <li><a href="">Le rendu final</a></li>
+        <li><a href="">Plan</a></li>
        
     
-        <h1>TÉTHANOS</h1>
+        
     
         <li><a href="">Matériel</a></li>
 
         <li><a href="">Documentation</a></li>
     
     
+-->
+<div class="top">
+    <div class="x1"><p style="font-size: 100px; ">_______</p></div>
+    <div><h1>TÉTHANOS</h1></div>
+    <div class="x1"><p style="font-size: 100px;">_______</p>
+    </div>
 </div>
+
 <h2 style="margin-bottom: 50px;">L'Équipe</h2>
 
    
@@ -65,6 +72,7 @@
             <img class="i4" style="width: 500px; height: 500px;" src="Img\4.jpg" alt="">
 
         </div>
+        <h2>Matériel</h2>
         <div class="imgtest2">
             <img class="i1" style="width: 500px; height: 500px;" src="Img\image.webp" alt="">
             <img class="i2" style="width: 500px; height: 500px;" src="Img\ardui.webp" alt="">
@@ -76,13 +84,7 @@
 
     <div class="container">
         <h2>Documentation</h2>
-        <nav>
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#brainstorming">Brainstorming</a></li>
-                <li><a href="#maquettage">Maquettage</a></li>
-            </ul>
-        </nav>
+       
         <article id="introduction">
             <h3>introduction</h3>
             <p></p>
@@ -96,15 +98,13 @@
             <h3>Maquettage</h3>
             <p>Après le brainstorming, le maquettage permet de visualiser et de concrétiser les idées sélectionnés</p>
         </article>
-        <footer>
-            <p>@2025 Team Marvel</p>
-        </footer>
+      
     </div>
 
     <div class="arduino">
         <h2>Code arduino</h2>
 
-        <p>#include <Servo.h>
+        <p style="margin-bottom: 20px;">#include < Servo.h >
 
 
             // Define les broches pour les servo-moteurs 
@@ -116,7 +116,7 @@
             <br>
                 const int servoPin3 = 2;
             <br>
-            
+            <br>
             // Define les broches pour les potentiomètres
             <br>
                 const int potPin1 = A0;
@@ -125,7 +125,7 @@
             <br>
                 const int potPin3 = A2;
             <br>
-            
+            <br>
             // Crée des objets Servo pour les servo-moteurs
             <br>
                 Servo servo1;
@@ -134,8 +134,9 @@
             <br>
                 Servo servo3;
             <br>
-            
+            <br>
             void setup() {
+            <br>
             <br>
               // Initialise les servo-moteurs
             <br>
@@ -149,8 +150,9 @@
             <br>
             
             void loop() {
-            <br>
+            <br><br>
               // Lit les valeurs des potentiomètres
+            <br>
             <br>
                 int angle1 = map(analogRead(potPin1), 0, 1023, 0, 180);
             <br>
@@ -160,7 +162,7 @@
             <br>
             
               // Déplace les servo-moteurs aux positions spécifiées par les potentiomètres
-            <br>
+            <br><br>
                  servo1.write(angle1);
             <br>
                     delay(15); // Ajout d'un délai de 15 millisecondes
@@ -175,7 +177,11 @@
             <br>
             }</p>
     </div>
-    
+    <footer>
+        <p>@2025 Team Marvel</p>
+        <p>Images de l'équipe générées par chat-GPT</p>
+        <p>CC-BY-CA</p>
+    </footer>
 
 </body>
 
