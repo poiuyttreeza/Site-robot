@@ -12,42 +12,8 @@
 body {
     max-width: 100%;
     background-color: rgba(197, 8, 8, 0.979);
-
-
 }
 
-
-
-.top li {
-    text-decoration: none;
-    list-style-type: none;
-    border: black 5px solid;
-    border-radius: 10px;
-    padding: 5px;
-    max-width: fit-content;
-    max-height: 40px;
-    margin: 0px;
-    margin-left: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-
-.top li:hover {
-    border-color: rgba(238, 255, 0, 0.849);
-}
-
-.top li a:hover {
-    color: rgba(238, 255, 0, 0.849);
-
-}
-
-.top li a {
-    text-decoration: none;
-    color: black;
-}
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
