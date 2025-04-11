@@ -3,10 +3,9 @@
 }
 
 .top {
-    
+
     justify-content: space-evenly;
     margin: auto;
-    
     justify-items: center;
 }
 
@@ -279,8 +278,9 @@ h3 {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.726);
 }
 
-.arduino{ 
-justify-items: center;}
+.arduino {
+    justify-items: center;
+}
 
 
 
@@ -290,8 +290,11 @@ justify-items: center;}
 
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.726);
 }
- .arduino img {border-radius: 15px;
-margin: 50px;}
+
+.arduino img {
+    border-radius: 15px;
+    margin: 50px;
+}
 
 .container p {
     font-size: 18px;
@@ -323,6 +326,7 @@ margin: 50px;}
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
 @media (max-width: 1000px) {
     h1 {
         font-size: 100px;
