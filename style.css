@@ -3,17 +3,17 @@
 }
 
 .top {
-    display: flex;
+    
     justify-content: space-evenly;
     margin: auto;
-    max-width: 100%;
+    
     justify-items: center;
 }
 
 body {
     max-width: 100%;
     background-color: rgba(197, 8, 8, 0.979);
-    margin: auto;
+
 
 }
 
@@ -307,5 +307,10 @@ h3 {
 @media (max-width: 1000px) {
     .imgtest2 {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 100px;
     }
 }
